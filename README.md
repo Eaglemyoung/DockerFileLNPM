@@ -1,6 +1,8 @@
 # DockerFileLNPM
 Docker stack:Nginx+PHP+MySQL+Haproxy
+
 [NOTE]
+
 1.If you want change server name , you will change server name in Dockerfile.
 
 2.All Docker image on the Debian,and All service package from debian package
