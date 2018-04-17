@@ -9,7 +9,7 @@ FROM debian:testing
 MAINTAINER <Eagle_M_Young>
 
 # Edit apt source'list
-echo -e "deb http://ftp.us.debian.org/debian testing main contrib non-free \ndeb http://ftp.us.debian.org/debian testing-updates main contrib non-free \ndeb http://security.debian.org/ testing/updates main contrib non-free" > /etc/apt/sources.list
+RUN echo -e "deb http://ftp.us.debian.org/debian testing main contrib non-free \ndeb http://ftp.us.debian.org/debian testing-updates main contrib non-free \ndeb http://security.debian.org/ testing/updates main contrib non-free" > /etc/apt/sources.list
 
 # Update apt
 RUN apt-get update
